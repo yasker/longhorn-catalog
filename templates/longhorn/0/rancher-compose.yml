@@ -1,6 +1,6 @@
 .catalog:
     name: "Longhorn"
-    version: "v0.1.0-yasker-84d851e"
+    version: "v0.1.0-yasker"
     description: "Rancher Block Storage"
 driver:
     health_check:
@@ -11,7 +11,7 @@ driver:
         unhealthy_threshold: 3
         healthy_threshold: 2
     metadata:
-        VOLUME_STACK_IMAGE: yasker/longhorn:84d851e
+        VOLUME_STACK_IMAGE: yasker/longhorn:dd1fe7f
 
 storagepool:
     scale: 1
