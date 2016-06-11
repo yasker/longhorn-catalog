@@ -12,7 +12,7 @@ driver:
     - /dev:/host/dev
     - /etc/docker/plugins:/etc/docker/plugins
     - /var/lib/rancher/longhorn:/var/lib/rancher/longhorn
-  image: yasker/longhorn:4086a37
+  image: yasker/longhorn:12b5cd7
   command:
     - launch-driver
     - volumedriver
@@ -22,7 +22,7 @@ driver:
 storagepool:
   labels:
     io.rancher.container.create_agent: 'true'
-  image: yasker/longhorn:4086a37
+  image: yasker/longhorn:12b5cd7
   command:
     - launch-driver
     - storagepool

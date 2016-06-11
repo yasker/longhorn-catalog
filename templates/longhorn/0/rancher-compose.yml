@@ -11,7 +11,7 @@ driver:
         unhealthy_threshold: 3
         healthy_threshold: 2
     metadata:
-        VOLUME_STACK_IMAGE: yasker/longhorn:4086a37
+        VOLUME_STACK_IMAGE: yasker/longhorn:12b5cd7
 
 storagepool:
     scale: 1
